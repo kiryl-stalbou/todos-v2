@@ -1,0 +1,40 @@
+{
+  "common": {
+    "appTitle": "EasyTrials"
+  },
+  "auth": {
+    "participationID": "Your Participation ID",
+    "phoneNumberVerified": "Your phone number is verified!",
+    "createPassword": "Create a password",
+    "enterPasswordHint": "Enter password",
+    "confirmPasswordHint": "Confirm password",
+    "continueButton": "Continue",
+    "changeParticipationID": {
+      "text": "Use different",
+      "tapText": "Participation ID"
+    },
+    "licenceAgreement": {
+      "text": "By clicking continue, you agree to the",
+      "tapText": "\nEnd user licence agreement"
+    }
+  },
+  "passwordRules": {
+    "title": "Password must contain:",
+    "charactersCount": "At least 12 characters",
+    "upperAndLower": "At least one upper or lower case",
+    "specialCharacter": "At least one special character"
+  },
+  "todo": {
+    "pageName": "Todo",
+    "noData": "No TODOs yet!",
+    "todoList": "Todo",
+    "completedList": "Completed"
+  },
+  "createTodo": {
+    "hintText": "Add your todo here...",
+    "button": "Save"
+  },
+  "exceptions": {
+    "unknownException": "Unknown exception caught while trying to handle error: {exception}"
+  }
+}

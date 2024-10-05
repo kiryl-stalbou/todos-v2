@@ -1,0 +1,50 @@
+name: core_ui
+publish_to: none
+description: Core UI module
+
+environment:
+  sdk: '>=3.1.1 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  core:
+    path: ../core
+  navigation:
+    path: ../navigation
+
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: false
+  assets:
+    - resources/images/
+    - resources/icons/
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: resources/fonts/Raleway-Bold.ttf
+          weight: 700
+        - asset: resources/fonts/Raleway-ExtraBold.ttf
+          weight: 800
+        - asset: resources/fonts/Raleway-ExtraLight.ttf
+          weight: 200
+        - asset: resources/fonts/Raleway-Heavy.ttf
+          weight: 900
+        - asset: resources/fonts/Raleway-Light.ttf
+          weight: 300
+        - asset: resources/fonts/Raleway-Medium.ttf
+          weight: 500
+        - asset: resources/fonts/Raleway-Regular.ttf
+          weight: 400
+        - asset: resources/fonts/Raleway-SemiBold.ttf
+          weight: 600
+        - asset: resources/fonts/Raleway-Thin.ttf
+          weight: 100

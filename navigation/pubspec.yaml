@@ -1,0 +1,28 @@
+name: navigation
+description: "A new Flutter package project."
+publish_to: none
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  core:
+    path: ../core
+
+  auth:
+    path: ../features/auth
+  todo:
+    path: ../features/todo
+  create_todo:
+    path: ../features/create_todo
+
+  go_router: ^13.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
